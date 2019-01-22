@@ -8,11 +8,29 @@ namespace heathinvestigations.Controllers
     public class HomeController : Controller
     {
         // GET: /Home/
-        [HttpGet]
-        [Route("")]
+        [HttpGet("")]
+        [Route("Home")]
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
+        }
+        
+        [HttpGet("Services")]
+        public IActionResult Services()
+        {
+            return View("Services");
+        }
+
+        [HttpGet("Investigative-Highlights")]
+        public IActionResult Highlights()
+        {
+            return View("Highlights");
+        }
+
+        [HttpGet("Contact")]
+        public IActionResult Contact()
+        {
+            return View("Contact");
         }
     }
 }
