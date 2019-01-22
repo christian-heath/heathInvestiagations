@@ -6,8 +6,15 @@
     width: 100%;
     height: 100%;
 }
-@media (min-width: 576px){
-    .container {
-        max-width: 750px;
-    }
+.triangle {
+    display: block;
+    margin: 0 auto;
+  }
+.triangle-5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: solid 20px black;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
 }
