@@ -11,12 +11,49 @@
 }
 .row.featurette{
     margin-top: 30px;
+    padding: 0;
+    width: 101.5%;
+    padding-left: 1%;
 }
 .row.featurette.second{
     color: white;
 }
 .featurette-heading{
-    box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+    text-align: center;
+}
+.divider
+{
+	position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
 }
 .triangle {
     display: block;
