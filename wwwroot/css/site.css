@@ -1,14 +1,22 @@
+.navbar.navbar-dark{
+    background-color: transparent!important;
+}
 .header{
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 .header img{
     width: 100%;
     height: 100%;
 }
-.row.featurette.second{
+.row.featurette{
     margin-top: 30px;
+}
+.row.featurette.second{
     color: white;
+}
+.featurette-heading{
+    box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
 }
 .triangle {
     display: block;
