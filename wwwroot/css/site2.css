@@ -1,5 +1,5 @@
 #navi{
-    background-color: transparent!important;
+    background-color: black!important;
 }
 .nav-item .nav-link{
     color: rgba(255,255,255,0.9)!important;
@@ -45,7 +45,7 @@
 }
 .header{
     width: 100%;
-    height: 600px;
+    height: 550px;
 }
 .header img{
     width: 100%;
